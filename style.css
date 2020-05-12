@@ -1,0 +1,15 @@
+.header {
+    font-weight: 500;
+}
+.user-name {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.input:not(:placeholder-shown) ~ .hidden-label {
+    bottom: 50% ;
+    /* transform: scale(0.8); */
+    left: 0;
+    opacity: 1;
+}

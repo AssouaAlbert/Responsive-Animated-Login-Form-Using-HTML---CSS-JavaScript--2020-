@@ -1,0 +1,45 @@
+.wave {
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.hero__image {
+    width: 50%;
+}
+.avatar--large{
+    width: 10rem;
+    height: 10rem;
+}
+.login__name {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 10% 1fr ;
+    align-items: flex-end;
+    width: 100%;
+    padding: 1rem;
+}
+.login__name > label {
+    font-size: 1.4rem;
+}
+.login-details {
+    height: 5rem;
+    width: 90%;
+    border-bottom: 1px solid black;
+    position: relative;
+}
+.login-details input{
+    width: 100%;
+    font-family: inherit;
+    font-size: 1.8rem;
+    outline: none;
+}
+.login-details > * {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.login-details label{
+    opacity: 0;
+    transition: 0.1s linear;
+    margin-bottom: 1px;
+}
